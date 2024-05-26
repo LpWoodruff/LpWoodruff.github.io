@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(63, 67, 71);
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
+}
+
+.header-container {
+    background-color: rgb(37, 39, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-container h1 {
+    font-size: 34px;
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: rgb(47, 179, 98);
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #fdf3f3;
+    border-radius: 5px;
+}
+
