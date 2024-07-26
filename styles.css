@@ -1,0 +1,267 @@
+:root {
+    --primary-color: rgb(34, 209, 142);
+    --secondary-color: ivory;
+    --text-color: rgb(0, 0, 0);
+    --text-color-2: rgb(88, 88, 88);
+  }
+  
+  body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+    
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+  }
+  
+ header {
+    display: flex;
+    background-color: var(--primary-color);
+    margin:0px;
+    padding-left: 10px;
+    top: 0;
+    position: sticky; 
+    z-index: 1000;
+ }
+
+.menu-icon {
+    padding-left: 6rem;
+    display: flex;
+    width: 30px;
+ }
+
+ .nav-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display:none;
+    
+ }
+
+ .nav-links.active {
+    background-color: var(--secondary-color);
+    display: block;
+ }
+
+ .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+
+ }
+
+ .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #b94a4a;
+}
+
+.hero-container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+
+.pfp-container{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.pfp-container h2{
+    font-size: 34px;
+}
+
+.pfp-container h3{
+    color: var(--text-color-2);
+}
+
+
+#pfp{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.media{
+    padding: 5px;
+}
+
+.about-container h2{
+    text-align: center;
+    
+}
+
+.about-container p {
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px 5px var(--text-color-2);
+
+}
+
+.download-pic{
+    width:15px;
+}
+
+.software-container h2{
+    display:flex;
+    justify-content: center;
+}
+
+.software-container{
+    padding: 15px;
+}
+
+.software-container ul li{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.software-container a{
+    text-decoration: none;
+}
+
+.software-container ul li:hover{
+    color: var(--primary-color);
+}
+
+.software-container p {
+    margin: 15px;
+    color: var(--text-color-2);
+}
+
+#skills-container{
+    background-color: var(--primary-color);
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px var(--text-color-2);
+}
+
+.Tech-skill-container h2{
+
+    font-weight: bold;
+    padding: 4px;
+    
+}
+
+.Tech-skill-container{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.soft-skills-container h2{
+    font-weight: bold;
+    padding: 4px;
+    
+}
+
+.soft-skills-container{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.Tech-skill-container ul {
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+}
+
+.soft-skills-container ul{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+#resume-container{
+    text-align: center;
+}
+
+.resume-container p{
+    color: var(--text-color-2);
+    padding-bottom: 5px;
+}
+
+.download-box{
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 5px 5px 5px var(--text-color-2);
+    justify-content: center;
+}
+
+.download-box h2 {
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 5px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer-content ul li a:hover {
+    color: #b94a4a;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+
